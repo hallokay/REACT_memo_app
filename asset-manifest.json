@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/REACT_memo_app/static/css/main.a4e81798.chunk.css",
+    "main.js": "/REACT_memo_app/static/js/main.8555dfcc.chunk.js",
+    "main.js.map": "/REACT_memo_app/static/js/main.8555dfcc.chunk.js.map",
+    "runtime-main.js": "/REACT_memo_app/static/js/runtime-main.c9ae9b5b.js",
+    "runtime-main.js.map": "/REACT_memo_app/static/js/runtime-main.c9ae9b5b.js.map",
+    "static/js/2.1188596c.chunk.js": "/REACT_memo_app/static/js/2.1188596c.chunk.js",
+    "static/js/2.1188596c.chunk.js.map": "/REACT_memo_app/static/js/2.1188596c.chunk.js.map",
+    "index.html": "/REACT_memo_app/index.html",
+    "static/css/main.a4e81798.chunk.css.map": "/REACT_memo_app/static/css/main.a4e81798.chunk.css.map",
+    "static/js/2.1188596c.chunk.js.LICENSE.txt": "/REACT_memo_app/static/js/2.1188596c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9ae9b5b.js",
+    "static/js/2.1188596c.chunk.js",
+    "static/css/main.a4e81798.chunk.css",
+    "static/js/main.8555dfcc.chunk.js"
+  ]
+}

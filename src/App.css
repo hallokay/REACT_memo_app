@@ -1,0 +1,96 @@
+.App {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: #333;
+    min-height: 100vh;
+}
+.notes_list {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+ 
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 170px;
+    max-width: 450px;
+    background: #fef68a;
+    border-radius: 10px;
+    padding: 1rem;
+    /* 입력시 내가 공백 만든만큼 떨어지는 것 엔터칠때 공백  */
+    white-space: pre-wrap;
+}
+
+ .note_footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .del_icon {
+     cursor: pointer;
+
+ }
+
+ /* ================== add note */
+ .note.new {
+     background: #67d7cc;
+ }
+ textarea {
+     border: none;
+     resize: none;
+     background: #67d7cc;
+
+ }
+
+ textarea:focus {
+     outline: none;
+ }
+
+ .save {
+     background: rgb(238, 237, 237);
+     border: none;
+     border-radius: .5rem;
+     padding: 10px 15px;
+     cursor: pointer;
+ }
+ .save:hover {
+     background: #dbdbdb;
+     color: #fff;
+ }
+
+
+ /* ================ search bar ============*/
+ .search {
+     display: flex;
+     align-items: center;
+     background: rgb(233, 233, 233);
+     border-radius: .9rem;
+     padding: 5px;
+     margin: 1.5rem 0;
+ }
+
+ .search input {
+     border: none;
+     background: none;
+ }
+ .search input:focus {
+    outline: none;
+ }
+
+ /* =========== header ============= */
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .dark_mode {
+     background: #000;
+ }
+  .dark_mode h1 {
+     color: #fff;
+ }
